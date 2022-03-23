@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 import App from '../App';
-import renderWithRouter from '../components/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 
 test('Verifica se o primeiro link contem o texto Home', () => {
   const { getByRole, history } = renderWithRouter(<App />);
