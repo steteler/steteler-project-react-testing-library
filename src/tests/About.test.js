@@ -14,7 +14,7 @@ describe('Verifica se a página contém as informações sobre a Pokédex.', () 
 
   it('Verifica se a página contém dois parágrafos com texto sobre a Pokédex.', () => {
     const describe = screen.getAllByText(/pokémons/i);
-    expect(describe.length).toBe(2);
+    expect(describe).toHaveLength(2);
   });
 
   it('Verifica se a página contém a imagem da Pokédex:', () => {
