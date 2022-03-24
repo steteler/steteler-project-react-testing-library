@@ -7,7 +7,7 @@ test('Verifica se aparece No favorite pokemon found', () => {
   renderWithRouter(<FavoritePokemons />);
 
   const noFavorite = screen.getByText(/No favorite pokemon found/i);
-  expect(noFavorite.textContent).toBe('No favorite pokemon found');
+  expect(noFavorite).toHaveTextContent('No favorite pokemon found');
   expect(noFavorite).toBeInTheDocument();
 });
 
