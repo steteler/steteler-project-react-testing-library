@@ -1,9 +1,8 @@
 import React from 'react';
-import { fireEvent, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from '../renderWithRouter';
-import { FavoritePokemons } from '../components';
 
 test('Verifica se é renderizado um card com informações de determinado pokémon', () => {
   renderWithRouter(<App />);
