@@ -2,7 +2,6 @@
   "name": "sd-0x-project-react-testing-library",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kikutii.github.io/kikuti-project-react-testing-library",
   "engines": {
     "node": "16"
   },
@@ -17,8 +16,6 @@
     "react-scripts": "^5.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,7 +46,6 @@
     "@babel/preset-react": "^7.12.1",
     "@stryker-mutator/core": "^3.3.1",
     "@stryker-mutator/javascript-mutator": "^3.3.1",
-    "@stryker-mutator/jest-runner": "^3.3.1",
-    "gh-pages": "^4.0.0"
+    "@stryker-mutator/jest-runner": "^3.3.1"
   }
 }
